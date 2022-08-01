@@ -1,14 +1,16 @@
 function calculateTip(event) {
 event.preventDefault();
+
+}
 let bill = document.getElementById('bill').value;
 let serviceQual = document.getElementById('service Qual').value;
 let numOfpeople = document.getElementById('numOfpeople').value;
 
-if(bill = ''  | serviceQual =0){
+if(bill == ''  | serviceQual == 0){
 
 }
 
-if(numOfpeople =''  numOfpeople <=1){
+if(numOfpeople ==''  numOfpeople <=1){
     numOfpeople =1;
     document.getElementById('each').style.display ="none";
 
@@ -25,3 +27,4 @@ document.getElementById('totaltip').style.display = "none";
 document.getElementById('each').style.display  = "none";
 
 document.getElementById('tipsform').addEventListener('submit'. calculateTip);
+
