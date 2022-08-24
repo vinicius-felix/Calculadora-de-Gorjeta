@@ -4,7 +4,7 @@ event.preventDefault();
 }
 let bill = document.getElementById('bill').value;
 let serviceQual = document.getElementById('service Qual').value;
-let numOfpeople = document.getElementById('numOfpeople').value;
+let numOfpeople = document.getElementById('people').value;
 
 if(bill == '' || serviceQual == 0)
     alert('Bill cant be null');
