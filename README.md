@@ -1,3 +1,3 @@
 # Calculadora-de-Gorjeta
 
-* Meu primeiro projeto . 
+* Fork de projeto do user @fer1192nanda
